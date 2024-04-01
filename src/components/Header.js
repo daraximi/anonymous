@@ -10,7 +10,7 @@ function Header() {
                         src="logo.png"
                         alt="Logo"
                     />
-                    <h1>Press Guardians</h1>
+                    <h1>The Press Guardians</h1>
                 </div>
             </a>
             <nav>

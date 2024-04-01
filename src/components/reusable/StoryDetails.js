@@ -32,7 +32,7 @@ function StoryDetails() {
             <header>
                 <a href="/">
                     <div className="logo">
-                        <h1>Press Guardians</h1>
+                        <h1>Te Press Guardians</h1>
                     </div>
                 </a>
                 <nav>
