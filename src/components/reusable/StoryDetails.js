@@ -1,9 +1,9 @@
 import React from 'react';
 import { useParams } from 'react-router-dom'; //
-import Header from '../Header';
 import Footer from '../Footer';
 import { useState, useEffect } from 'react';
 import './storydetails.css';
+import '../../styles/header.css';
 
 function StoryDetails() {
     const url = 'https://tan-frog-kilt.cyclic.app/api/stories';
@@ -29,7 +29,50 @@ function StoryDetails() {
 
     return (
         <>
-            <Header />
+            <header>
+                <a href="/">
+                    <div className="logo">
+                        <h1>Press Guardians</h1>
+                    </div>
+                </a>
+                <nav>
+                    <ul>
+                        <li>
+                            <a
+                                id="links"
+                                href="/"
+                            >
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                id="links"
+                                href="/stories"
+                            >
+                                Stories
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                id="links"
+                                href="/create"
+                            >
+                                Write a Story
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                id="links"
+                                href="/about"
+                            >
+                                About Us
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
             <main className="container">
                 <div className="body">
                     <h1>{story.title}</h1>
