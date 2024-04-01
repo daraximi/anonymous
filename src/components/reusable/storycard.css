@@ -1,0 +1,22 @@
+.story {
+    margin: 8px 0;
+    width: 92%;
+    max-width: 100%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.link {
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+}
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box; /* Display 2 lines only */
+    -webkit-line-clamp: 2; /* Limit to 2 lines */
+    -webkit-box-orient: vertical;
+    width: 100%; /* Adjust as needed */
+}

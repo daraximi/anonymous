@@ -1,0 +1,49 @@
+header {
+    left: 0;
+    top: 0;
+    background-color: #555;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0.3rem 4rem;
+}
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    padding: 8px 8px;
+    text-align: justify;
+}
+ul {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+a.active {
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+}
+a#links:hover {
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+}
+img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+.logo h1 {
+    color: #fff;
+    font-size: 1.9rem;
+    margin-left: 10px;
+}

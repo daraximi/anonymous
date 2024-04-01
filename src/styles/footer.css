@@ -1,0 +1,32 @@
+footer {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-around;
+    color: #212529;
+    text-align: center;
+    padding: 10px 0px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+footer p {
+    margin: 0;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 1300px) {
+    footer {
+        flex-direction: column;
+    }
+}

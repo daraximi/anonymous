@@ -1,0 +1,25 @@
+.card {
+    margin: 10px;
+    /* width: 80%;
+    max-width: 80%; */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card.values {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card.values .value-text {
+    display: flex;
+    flex-direction: row;
+}
+.small-text {
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
