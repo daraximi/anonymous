@@ -31,8 +31,8 @@ function StoryDetails() {
         <>
             <header>
                 <a href="/">
-                    <div className="logo">
-                        <h1>Te Press Guardians</h1>
+                    <div className="log">
+                        <h1>The Press Guardians</h1>
                     </div>
                 </a>
                 <nav>
@@ -83,6 +83,19 @@ function StoryDetails() {
                         <h2>By {story.author}</h2>
                     )}
                     <p>{story.body}</p>
+                </div>
+                <div className="comments">
+                    <form className="form">
+                        <input
+                            type="text"
+                            placeholder="Name"
+                        />
+                        <input
+                            type="text"
+                            placeholder="Add a comment..."
+                        />
+                        <button>Post comment</button>
+                    </form>
                 </div>
             </main>
             <Footer />

@@ -6,6 +6,9 @@ body {
     padding: 0; /* Remove default padding */
     overflow: none; /* Prevent scrollbars */
 }
+.log {
+    font-size: 14px;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -31,4 +34,21 @@ p {
     font-weight: 300;
     margin: 10px 0;
     flex-direction: column;
+}
+.comments {
+    margin: 10px 10px;
+    width: 80%;
+}
+.form {
+    max-width: 80%;
+}
+input[type='text'],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
 }
