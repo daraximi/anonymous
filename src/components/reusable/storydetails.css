@@ -26,13 +26,13 @@ body {
     justify-content: start;
     width: 80%;
     padding: 40px 80px;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 p {
     display: flex;
     font-size: 20px;
     font-weight: 300;
-    margin: 10px 0;
+    margin: 5px 0;
     flex-direction: column;
 }
 .comments {
@@ -49,6 +49,14 @@ textarea {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 16px;
+}
+@media screen and (max-width: 600px) {
+    .body {
+        padding: 20px 40px;
+    }
+    .form {
+        max-width: 100%;
+    }
 }
